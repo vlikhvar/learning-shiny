@@ -47,3 +47,20 @@ Used for server, for example for setting the output.
 * renderText
 * renderUI
 
+Important reactive functions
+----------------------------
+
+* render*()
+* reactive()
+
+data <- reactive({...})
+data() 
+
+* isolate() : makes non-reactive object
+* observeEvent() : triggers code to run on server (ex. download data)
+* observe()
+* eventReactive() 
+* reactiveValues()
+
+
+
